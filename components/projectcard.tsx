@@ -38,6 +38,7 @@ export default function ProjectCard({
             alt={title}
             width={600}
             height={400}
+            loading="lazy"
             className="h-48 w-full object-cover"
           />
 
